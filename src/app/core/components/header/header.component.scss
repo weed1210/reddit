@@ -1,0 +1,28 @@
+header {
+    height: 100%;
+
+    .container-fluid {
+        height: 100%;
+        width: 100%;
+
+        .row {
+            border-bottom: solid 0.5px lightgray;
+            width: 100%;
+            height: 100%;
+
+            .col, .col-6 {
+                height: 100%;
+            }
+
+            .header-left {
+                .icon-text {
+                    height: 22px;
+                    filter: invert(60%) sepia(96%) saturate(6191%) hue-rotate(0deg) brightness(100%) contrast(107%);
+                }
+                .icon-main {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
