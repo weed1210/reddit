@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './core/components/header/header.component';
-import { TuiRootModule } from '@taiga-ui/core';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +8,7 @@ import { TuiRootModule } from '@taiga-ui/core';
   imports: [
     RouterOutlet,
 
-    HeaderComponent,
-
-    TuiRootModule
+    HeaderComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
